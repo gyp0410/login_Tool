@@ -44,7 +44,7 @@ class QPushButtonDemo(QDialog):
         #在文本前面显示图像
 
         self.button2 = QPushButton('图像按钮')
-        self.button2.setIcon(QIcon(QPixmap('./images/python.png')))
+        self.button2.setIcon(QIcon(QPixmap('./images/py.ico')))
         self.button2.clicked.connect(lambda:self.whichButton(self.button2))
         layout.addWidget(self.button2)
 
